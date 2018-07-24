@@ -242,16 +242,21 @@ gridsearch_ran_for.best_score_
 # In[30]:
 
 
-#Finally, kNN. Since this model not really 'learns' anything during training, we don't have to make a training and test set
-#Note: the f1 score is 0.81
+#Finally, kNN.
+#Note: the f1 score is 0.81 with the most optimal hyperparameter being n_neighbors = 5
 
 from sklearn.neighbors import KNeighborsClassifier
-from sklearn.metrics import accuracy_score
 
 knn = KNeighborsClassifier()
-knn.fit(X, y)
-y_pred_knn = knn.predict(X)
-accuracy_score(y_pred_knn, y)
+
+grid_knn = [{'n_neighbors': [3,5]}]
+
+gridsearch_knn = GridSearchCV(knn, grid_knn, cv = 10, scoring  = 'f1')
+
+gridsearch_knn.fit(X,y)
+
+gridsearch_knn.best_params_
+gridsearch_knn.best_score_
 
 
 # In[31]:
