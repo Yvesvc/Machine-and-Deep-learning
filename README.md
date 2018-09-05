@@ -8,5 +8,5 @@ Great resources are:
 -Hands‑On Machine Learning with Scikit‑Learn and TensorFlow by Aurélien Géron  
 -Andrew Ng's courses  
 -Youtube
--https://pythonprogramming.net
 -Coursera
+-https://pythonprogramming.net
