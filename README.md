@@ -7,5 +7,6 @@ Great resources are:
 -Python Data Science by Jake Vanderplas  
 -Hands‑On Machine Learning with Scikit‑Learn and TensorFlow by Aurélien Géron  
 -Andrew Ng's courses  
--Youtube  
+-Youtube
+-https://pythonprogramming.net
 -Coursera
