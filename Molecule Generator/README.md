@@ -1,6 +1,6 @@
 **VARIATIONAL AUTOENCODER TO GENERATE DRUG MOLECULES FROM SCRATCH**
 
-**About**<br/>
+**About** (Examples are shown below)<br/> 
 The attached script consists of a Variational Autoencoder (VAE) Model that is able to create new drug molecules.
 Given as input an existing molecule and choice of how similar you want the generated molecule to be,
  a new molecule is created that is compliant with Smile notation.
