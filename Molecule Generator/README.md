@@ -33,3 +33,16 @@ From these two parameters the latent space is created. By playing with the varia
 Finally, the created latent space goes trough the decoder which outputs a new generated molecule.
 
 **Example**<br/>
+The following molecule is used as input:<br/>
+![alt text](https://github.com/Yvesvc/Machine-and-Deep-learning/blob/master/Molecule%20Generator/Image/base.PNG)
+
+Now what happens when we want to create very similar molecules:<br/>
+![alt text](https://github.com/Yvesvc/Machine-and-Deep-learning/blob/master/Molecule%20Generator/Image/8.PNG)
+![alt text](https://github.com/Yvesvc/Machine-and-Deep-learning/blob/master/Molecule%20Generator/Image/7.PNG)
+![alt text](https://github.com/Yvesvc/Machine-and-Deep-learning/blob/master/Molecule%20Generator/Image/4.PNG)
+
+Let's make the new molecule a bit more different: <br/>
+![alt text](https://github.com/Yvesvc/Machine-and-Deep-learning/blob/master/Molecule%20Generator/Image/5.PNG)
+
+I want a very different molecule:<br/>
+![alt text](https://github.com/Yvesvc/Machine-and-Deep-learning/blob/master/Molecule%20Generator/Image/1.PNG)
